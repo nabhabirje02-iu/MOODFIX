@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(102, 214, 233);
+}
+.topic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+  
+    text-align: center;
+    font-size: 30px;
+    color: #2c5dcf;
+    margin: 25px auto;
+    max-width: 1100px;
+
+}
+
+h4{
+    text-align: center;
+    text-shadow: #17059d;
+    color: rgb(51, 75, 129);
+}
+h2{
+    text-align: center;
+    color: #7e2ce2;
+}
+
+.moods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.moods label:nth-child(odd) {
+    grid-column: 1;
+}
+
+.moods label:nth-child(even) {
+    grid-column: 2;
+}
+.box:hover {
+    transform: translateY(1vh);
+}
+.mood{
+    background-color: #5e54d3;
+    border: 2px solid #365aeb;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px;
+    text-align: center;
+}
+
+.mood h2 {
+    color: #4e43eb;
+    margin-bottom: 25px;
+}
+
+.mood label {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(89, 119, 239);
+    border-radius: 10px;
+}
+/*movie image*/
+#movie-result {
+    text-align: center;
+}
+
+#movie-result img {
+    display: block;
+    margin: 0 auto;
+}
+
+#movie-result button {
+    display: block;
+    margin: 15px auto;
+}
+
+/* Button container */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Mid-blue buttons */
+.blue-btn {
+    background-color: #5e99c9;
+    color: rgb(74, 79, 218);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.blue-btn:hover {
+    background-color: #315F86;
+    transform: scale(1.05);
+}
+#dramasection,
+#movies-display {
+    display: none;
+}
