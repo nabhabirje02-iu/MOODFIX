@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(102, 214, 233);
+    background-color: rgb(243, 127, 214);
 }
 .topic img {
     display: block;
@@ -12,7 +12,7 @@ h1{
   
     text-align: center;
     font-size: 30px;
-    color: #2c5dcf;
+    color: rgb(122, 26, 98);
     margin: 25px auto;
     max-width: 1100px;
 
@@ -20,33 +20,33 @@ h1{
 
 h4{
     text-align: center;
-    text-shadow: #17059d;
-    color: rgb(51, 75, 129);
+    text-shadow: rgb(160, 17, 124);
+    color: rgb(200, 35, 159);
 }
 h2{
     text-align: center;
-    color: #7e2ce2;
+    color: rgb(169, 35, 135);
 }
 
-.moods {
+.mood {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 
-.moods label:nth-child(odd) {
+.mood label:nth-child(odd) {
     grid-column: 1;
 }
 
-.moods label:nth-child(even) {
+.mood label:nth-child(even) {
     grid-column: 2;
 }
 .box:hover {
     transform: translateY(1vh);
 }
 .mood{
-    background-color: #5e54d3;
-    border: 2px solid #365aeb;
+    background-color: rgb(209, 11, 133);
+    border: 2px solid rgb(158, 5, 120);
     border-radius: 20px;
     padding: 25px;
     margin: 30px;
@@ -54,7 +54,7 @@ h2{
 }
 
 .mood h2 {
-    color: #4e43eb;
+    color: rgb(184, 2, 138);
     margin-bottom: 25px;
 }
 
@@ -62,7 +62,7 @@ h2{
     display: inline-block;
     margin: 10px;
     padding: 12px;
-    background-color: rgb(89, 119, 239);
+    background-color: rgb(175, 4, 132);
     border-radius: 10px;
 }
 /*movie image*/
@@ -88,8 +88,8 @@ h2{
 
 /* Mid-blue buttons */
 .blue-btn {
-    background-color: #5e99c9;
-    color: rgb(74, 79, 218);
+    background-color: rgb(227, 52, 137);
+    color: rgb(218, 25, 121);
     border: none;
     padding: 12px 30px;
     border-radius: 8px;
@@ -101,7 +101,7 @@ h2{
 
 /* Hover effect */
 .blue-btn:hover {
-    background-color: #315F86;
+    background-color: rgb(237, 5, 117);
     transform: scale(1.05);
 }
 #dramasection,
